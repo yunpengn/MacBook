@@ -68,6 +68,7 @@ Please notice this guide is opinionated. The following philosophical rules are e
         - Go to `Advanced`, tick show development menu item.
     - Install the following plugin for Safari browser:
         - AdBlock for Safari, Octotree (see [here](https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/)), ...
+        - Add a [Personal Access Token](https://github.com/settings/tokens) for Octotree.
     - Re-open the Safari browser after that.
 8. Open `Finder` -> `Preferences` and:
     - Go to `General` and select `<account name>` when opening a new Finder window;
