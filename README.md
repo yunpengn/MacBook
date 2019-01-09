@@ -113,6 +113,8 @@ brew tap caskroom/cask
 14. Create a `Projects` folder by `mkdir ~/Projects`.
     - Later, you can clone your repositories to here.
 15. Configure your local git name & email `git config --global user.name/email "<value>"`.
+16. Install the following applications from App Store:
+    - Onedrive, QQ, WeChat, ...
 
 ## Licence
 
