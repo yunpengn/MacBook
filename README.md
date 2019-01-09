@@ -86,10 +86,26 @@ brew tap caskroom/cask
         - Go to `Profiles` -> `Default` and:
             - Go to `Colors` -> `Color Presets`, select `Solarized Dark`;
             - Go to `Text`, select `Blinking cursor` and change font size to 13;
-                - We suggest to use Meslo LG for Powerline - Regular (download from [here](https://raw.githubusercontent.com/powerline/fonts/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf));
+                - We suggest to use Meslo LG for Powerline - Regular (download from [here](meslo_powerline_regular.ttf)).
             - Go to `Window`, change `Transparency` and `Blur` to an an appropriate value.
     - Make iTerm 2 to be the default terminal;
-    - Set the tab complete to be case-insensitive `echo 'set completion-ignore-case on' >> ~/.inputrc`.
+    - Set the tab complete to be case-insensitive `echo 'set completion-ignore-case on' >> ~/.inputrc`;
+    - Make sure your bash shell is colorful `echo 'export CLICOLOR=1' >> ~/.bash_profile`;
+    - Make sure your Vim is colorful as well ``.
+11. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew cask install google-chrome`:
+    - Drag Chrome to the Dock for convenience;
+    - Install the following plugin for Chrome:
+        - AdBlock, Octotree, ...
+    - Open `Chrome` -> `Preferences` and:
+        - Show `Home` button and set homepage to `https://www.google.com.sg/`;
+        - Use web service to detect spelling errors;
+        - Send `No Tracking` requests;
+        - Enable `Developer Mode` for extensions.
+12. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew cask install sublime-text`:
+    - Drag Sublime to the Dock for convenience;
+    - Go to `Tools` -> `Install Package Control`.
+13. Install [Filezilla](https://filezilla-project.org) from [here](https://filezilla-project.org/download.php?type=client).
+    - Add the commonly used SSH servers.
 
 ## Licence
 
