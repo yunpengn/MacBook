@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# MacBook Setup Guide
 
-You can use the [editor on GitHub](https://github.com/yunpengn/MacBook/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a detailed step-by-step guide to help you setup a new MacBook Pro. Before we start, please take note of the following items:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- It is assumed you are using the latest model of MacBook Pro (at least after 2016).
+- It is also assumed that you have installed the latest version of MacOS (at least `10.12 Sierra`).
+- This guide is tailor-made for a developer or software engineer's personal laptop.
+    - In other words, we would install the required tools for personal development. However, we would not focus on tools that are organization-specific.
+- This guide is also customized for certain region (Asia/Singapore) & languages (English and Mandarin).
 
-### Markdown
+## Background
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Licence
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yunpengn/MacBook/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[GNU General Public Licence 3.0](LICENSE)
