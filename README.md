@@ -73,6 +73,23 @@ Please notice this guide is opinionated. The following philosophical rules are e
     - Go to `General` and select `<account name>` when opening a new Finder window;
     - Go to `Sidebar` and tick `<account name>`;
     - Go to `Advanced` and tick show all extensions, remove items in trask after 30 days and show folders on the top.
+9. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask :
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap caskroom/cask
+```
+10. Install [iTerm 2](https://www.iterm2.com) using Homebrew `brew cask install iterm2`:
+    - Drag iTerm 2 to the Dock for convenience;
+    - Close the terminal and open iTerm 2 instead;
+    - Open `iTerm 2` -> `Preferences`:
+        - Go to `General`, tick `Quit when all windows are closed`;
+        - Go to `Profiles` -> `Default` and:
+            - Go to `Colors` -> `Color Presets`, select `Solarized Dark`;
+            - Go to `Text`, select `Blinking cursor` and change font size to 13;
+                - We suggest to use Meslo LG for Powerline - Regular (download from [here](https://raw.githubusercontent.com/powerline/fonts/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf));
+            - Go to `Window`, change `Transparency` and `Blur` to an an appropriate value.
+    - Make iTerm 2 to be the default terminal;
+    - Set the tab complete to be case-insensitive `echo 'set completion-ignore-case on' >> ~/.inputrc`.
 
 ## Licence
 
