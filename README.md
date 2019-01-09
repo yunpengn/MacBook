@@ -63,11 +63,11 @@ Please notice this guide is opinionated. The following philosophical rules are e
     - Go to the following websites and sign in on this device for the fist time:
         - Google, Facebook, LinkedIn, GitHub, Outlook, Amazon, ...
         - You may need to have either your Phone, Google Authenticator or [Authy](https://authy.com) with you for 2FA purpose.
-    - Install the following plugin for Safari browser:
-        - AdBlock for Safari, ...
     - Open Safari `Preferences`:
         - Go to `Privacy`, tick no tracking scripts;
         - Go to `Advanced`, tick show development menu item.
+    - Install the following plugin for Safari browser:
+        - AdBlock for Safari, Octotree (see [here](https://georgegarside.com/blog/macos/install-any-safari-extension-macos-mojave/)), ...
     - Re-open the Safari browser after that.
 8. Open `Finder` -> `Preferences` and:
     - Go to `General` and select `<account name>` when opening a new Finder window;
