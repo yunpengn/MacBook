@@ -91,7 +91,10 @@ brew tap caskroom/cask
     - Make iTerm 2 to be the default terminal;
     - Set the tab complete to be case-insensitive `echo 'set completion-ignore-case on' >> ~/.inputrc`;
     - Make sure your bash shell is colorful `echo 'export CLICOLOR=1' >> ~/.bash_profile`;
-    - Make sure your Vim is colorful as well ``.
+    - Make sure your Vim is colorful as well ``;
+    - Create a new SSH key `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`.
+        - See your public key by `cat ~/.ssh/id_rsa.pub`;
+        - Add commonly used server configurations in `~/.ssh/config`.
 11. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew cask install google-chrome`:
     - Drag Chrome to the Dock for convenience;
     - Install the following plugin for Chrome:
@@ -106,6 +109,8 @@ brew tap caskroom/cask
     - Go to `Tools` -> `Install Package Control`.
 13. Install [Filezilla](https://filezilla-project.org) from [here](https://filezilla-project.org/download.php?type=client).
     - Add the commonly used SSH servers.
+14. Create a `Projects` folder by `mkdir ~/Projects`.
+15. Configure your local git name & email `git config --global user.name/email "<value>"`.
 
 ## Licence
 
