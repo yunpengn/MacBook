@@ -45,7 +45,8 @@ Please notice this guide is opinionated. The following philosophical rules are e
 3. Now, you should have signed in with the "right" admin account. Go to `System Preferences` -> `Users & Groups` and:
     - Make sure there is only one account (the one you are using now), except for at most one guest account;
     - Change the profile picture of the current account.
-4. Everything is done with account part. Now, re-open `System Preferences` and:
+4. Connect to your favorite WiFi network.
+5. Everything is done with account part. Now, re-open `System Preferences` and:
     - Go to `Language & Region`, change `first of the week` to Monday and tick the `24 hours`;
         - You may want to change the language here. If so, restart the device after the change.
     - Go to `iCloud`, log into your Apple iCloud account;
@@ -56,6 +57,22 @@ Please notice this guide is opinionated. The following philosophical rules are e
     - Go to `Display` -> `Night Shift`, turn on and choose 01:00 - 07:00;
     - Go to `Keyboard` -> `Input Method`, select Chinese Pinyin and English;
     - Go to `Date & Time` -> `Clock`, tick to show date.
+6. You may need to re-start the device now.
+7. Open the `Safari` browser and:
+    - Verify the favourite items are synced correctly;
+    - Go to the following websites and sign in on this device for the fist time:
+        - Google, Facebook, LinkedIn, GitHub, Outlook, Amazon, ...
+        - You may need to have either your Phone, Google Authenticator or [Authy](https://authy.com) with you for 2FA purpose.
+    - Install the following plugin for Safari browser:
+        - AdBlock for Safari, ...
+    - Open Safari `Preferences`:
+        - Go to `Privacy`, tick no tracking scripts;
+        - Go to `Advanced`, tick show development menu item.
+    - Re-open the Safari browser after that.
+8. Open `Finder` -> `Preferences` and:
+    - Go to `General` and select `<account name>` when opening a new Finder window;
+    - Go to `Sidebar` and tick `<account name>`;
+    - Go to `Advanced` and tick show all extensions, remove items in trask after 30 days and show folders on the top.
 
 ## Licence
 
