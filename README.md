@@ -39,7 +39,23 @@ Please notice this guide is opinionated. The following philosophical rules are e
         - Follow the instructions in Step 1.
     - Log out and then log into the account created just now;
     - Delete the old account;
+    - Go to `System Preferences` -> `Sharing`, change your bluetooth name;
+        - Decide whether you want to delete that account's home folder.
     - Alternatively, see this [guide](https://support.apple.com/en-us/HT201548) from Apple for more details.
+3. Now, you should have signed in with the "right" admin account. Go to `System Preferences` -> `Users & Groups` and:
+    - Make sure there is only one account (the one you are using now), except for at most one guest account;
+    - Change the profile picture of the current account.
+4. Everything is done with account part. Now, re-open `System Preferences` and:
+    - Go to `Language & Region`, change `first of the week` to Monday and tick the `24 hours`;
+        - You may want to change the language here. If so, restart the device after the change.
+    - Go to `iCloud`, log into your Apple iCloud account;
+        - It is important to do this step here, since this will sync your personalized data to this device.
+    - Go to `Dock`, un-tick `Show recently used applications`;
+    - Go to `Mission Control` -> `Hot Corners`, set the right-bottom corner to trigger sleep;
+    - Go to `Security & Privacy` -> `Firewall`, turn on the firewall;
+    - Go to `Display` -> `Night Shift`, turn on and choose 01:00 - 07:00;
+    - Go to `Keyboard` -> `Input Method`, select Chinese Pinyin and English;
+    - Go to `Date & Time` -> `Clock`, tick to show date.
 
 ## Licence
 
