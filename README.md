@@ -116,6 +116,14 @@ brew tap caskroom/cask
 16. Install the following applications from App Store:
     - Onedrive, QQ, WeChat, ...
 
+### Java Development Environment
+
+1. Install the latest version of Oracle JDK 11 by `brew cask install oracle-jdk`.
+    - We don't use an older version of Java because we prefer latest features. Also, Java 11 is under LTS;
+    - We don't use OpenJDK because previous experiences show that it could cause issues such as missing certificate.
+2. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate by [JetBrains](https://www.jetbrains.com) by `brew cask install intellij-idea`.
+
+
 ## Licence
 
 [GNU General Public Licence 3.0](LICENSE)
