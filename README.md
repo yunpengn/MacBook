@@ -19,7 +19,7 @@ I am aware that all data will be erased after the service. However, I am fine wi
 Please notice this guide is opinionated. The following philosophical rules are enforced:
 
 - **Be stingy**: install the minimal set of tools you need. Whenever a new software is installed, a new potential vulnerability is introduced.
-- **Be Apple's fun**: use tools provided by Apple by default (opt to an external tool only when absolutely necessary). For example, we use [iTerms 2](https://www.iterm2.com) rather than the [default terminal](https://support.apple.com/guide/terminal/welcome/mac
+- **Be Apple's fan**: use tools provided by Apple by default (opt to an external tool only when absolutely necessary). For example, we use [iTerms 2](https://www.iterm2.com) rather than the [default terminal](https://support.apple.com/guide/terminal/welcome/mac
 ). However, we would stick with the default [bash](https://www.gnu.org/software/bash/) and never use [zsh](http://www.zsh.org).
 
 ## Steps
