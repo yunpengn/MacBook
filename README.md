@@ -10,7 +10,7 @@ This is a detailed step-by-step guide to help you setup a new MacBook Pro. Befor
 
 ## Background
 
-At the time of writing, I am a [Computer Engineering](http://ceg.nus.edu.sg) undergraduate at the [National University of Singapore] as well as a software development enthusiast.
+At the time of writing, I am a [Computer Engineering](http://ceg.nus.edu.sg) undergraduate at the [National University of Singapore](http://www.nus.edu.sg/) as well as a software development enthusiast.
 
 One day, I received an email from [Apple](https://www.apple.com) with the title _"Important information about your MacBook Pro"_. It said that my MacBook _has an issue that may result in data loss and failure of the drive (SSD)._ See [this page](https://www.apple.com/sg/support/13-inch-macbook-pro-solid-state-drive-service-program/) for more information. Apple offered to provide a service program to fix this problem _(by updating the driver firmware)_ free of charge. So I registered and sent the device to an Apple Authorized Service Provider - [A.Lab](https://www.alab.sg).
 
