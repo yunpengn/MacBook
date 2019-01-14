@@ -123,6 +123,10 @@ brew tap caskroom/cask
     - We don't use OpenJDK because previous experiences show that it could cause issues such as missing certificate.
 2. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate by [JetBrains](https://www.jetbrains.com) by `brew cask install intellij-idea`.
 
+### Node.js Development Environment
+
+1. Install the latest version of Node.js runtime by `brew install node`.
+2. Install [WebStorm](https://www.jetbrains.com/webstorm/) by [JetBrains](https://www.jetbrains.com) by `brew cask install webstorm`.
 
 ## Licence
 
