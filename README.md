@@ -89,6 +89,7 @@ brew tap caskroom/cask
             - Go to `Text`, select `Blinking cursor` and change font size to 13;
                 - We suggest to use Meslo LG for Powerline - Regular (download from [here](meslo_powerline_regular.ttf)).
             - Go to `Window`, change `Transparency` and `Blur` to an an appropriate value.
+    - Go to `Shell` -> `Broadcast Input` and select `Show Background Pattern Indicator`;
     - Make iTerm 2 to be the default terminal;
     - Set the tab complete to be case-insensitive `echo 'set completion-ignore-case on' >> ~/.inputrc`;
     - Make sure your bash shell is colorful `echo 'export CLICOLOR=1' >> ~/.bash_profile`;
