@@ -129,6 +129,13 @@ brew tap caskroom/cask
 1. Install the latest version of Node.js runtime by `brew install node`.
 2. Install [WebStorm](https://www.jetbrains.com/webstorm/) by [JetBrains](https://www.jetbrains.com) by `brew cask install webstorm`.
 
+## Swift Development Environment
+
+1. Install Xcode (bundled with Swift, iOS & macOS SDK) from App Store.
+2. Go to `Xcode` -> `Preferences`:
+    - Go to `Accounts`, sign into your Apple ID (bundled with Apple Developer account);
+    - Go to `Navigation`, select `Uses Focused Editor` as `Navigation` option.
+
 ## Licence
 
 [GNU General Public Licence 3.0](LICENSE)
