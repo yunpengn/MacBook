@@ -136,6 +136,14 @@ brew tap caskroom/cask
     - Go to `Accounts`, sign into your Apple ID (bundled with Apple Developer account);
     - Go to `Navigation`, select `Uses Focused Editor` as `Navigation` option.
 
+### Python Development Environment
+
+1. Install the latest version of Python 3 by `brew install python3`.
+    - At the time of writing, MacOs still by default comes with Python 2.7, which we would not prefer to use.
+2. Install [PyCharm](https://www.jetbrains.com/pycharm/) by [JetBrains](https://www.jetbrains.com) by `brew cask install pycharm`.
+3. Install [Pipenv](https://github.com/pypa/pipenv) by `brew install pipenv`.
+    - We believe Pipenv is better than the others, such as [virtualenv](https://github.com/pypa/virtualenv), [pip](https://pypi.org/project/pip/), etc.
+
 ## Licence
 
 [GNU General Public Licence 3.0](LICENSE)
