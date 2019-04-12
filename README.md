@@ -119,8 +119,8 @@ brew tap caskroom/cask
 
 ### Java Development Environment
 
-1. Install the latest version of Oracle JDK 11 by `brew cask install oracle-jdk`.
-    - We don't use an older version of Java because we prefer latest features. Also, Java 11 is under LTS;
+1. Install the latest version of Oracle JDK by `brew cask install oracle-jdk`.
+    - We don't use an older version of Java because we prefer latest features. However, it is permitted to use the LTS version if the latest one is not;
     - We don't use OpenJDK because previous experiences show that it could cause issues such as missing certificate.
 2. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate by [JetBrains](https://www.jetbrains.com) by `brew cask install intellij-idea`.
 
