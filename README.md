@@ -109,8 +109,9 @@ brew tap caskroom/cask
 12. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew cask install sublime-text`:
     - Drag Sublime to the Dock for convenience;
     - Go to `Tools` -> `Install Package Control`.
-13. Install [Filezilla](https://filezilla-project.org) from [here](https://filezilla-project.org/download.php?type=client).
-    - Add the commonly used SSH servers.
+13. Install [Cyberduck](https://cyberduck.io) using Homebrew `brew cask install cyberduck`:
+    - Add the commonly used SSH servers;
+    - You can install [Filezilla](https://filezilla-project.org) instead.
 14. Create a `Projects` folder by `mkdir ~/Projects`.
     - Later, you can clone your repositories to here.
 15. Configure your local git name & email `git config --global user.name/email "<value>"`.
