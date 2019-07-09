@@ -145,6 +145,11 @@ brew tap caskroom/cask
 3. Install [Pipenv](https://github.com/pypa/pipenv) by `brew install pipenv`.
     - We believe Pipenv is better than the others, such as [virtualenv](https://github.com/pypa/virtualenv), [pip](https://pypi.org/project/pip/), etc.
 
+### Go Development Environment
+
+1. Install the latest version of Go by `brew install go`.
+2. Install [GoLand](https://www.jetbrains.com/go/) by [JetBrains](https://www.jetbrains.com) by `brew cask install goland`.
+
 ## Licence
 
 [GNU General Public Licence 3.0](LICENSE)
