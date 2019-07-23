@@ -97,12 +97,17 @@ brew tap caskroom/cask
 11. Configure your local SSH client:
     - Create a new SSH key `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`.
     - See your public key by `cat ~/.ssh/id_rsa.pub`;
-    - Add commonly used server configurations in `~/.ssh/config`. Notice that this file should start with the following:
+    - Create a file at `~/.ssh/config` and add commonly used server configurations inside, in the following format:
 ```bash
 Host *
     AddKeysToAgent yes
     UseKeychain yes
     IdentityFile ~/.ssh/id_rsa
+
+Host <server-name>
+    HostName <ip_address_or_domain_name>
+    IdentityFile ~/.ssh/id_rsa
+    User yunpengn
 ```
 12. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew cask install google-chrome`:
     - Drag Chrome to the Dock for convenience;
