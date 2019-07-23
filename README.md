@@ -74,7 +74,7 @@ Please notice this guide is opinionated. The following philosophical rules are e
     - Go to `General` and select `<account name>` when opening a new Finder window;
     - Go to `Sidebar` and tick `<account name>`;
     - Go to `Advanced` and tick show all extensions, remove items in trask after 30 days and show folders on the top.
-9. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask :
+9. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask:
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap caskroom/cask
@@ -94,10 +94,17 @@ brew tap caskroom/cask
     - Set the tab complete to be case-insensitive `echo 'set completion-ignore-case on' >> ~/.inputrc`;
     - Make sure your bash shell is colorful `echo 'export CLICOLOR=1' >> ~/.bash_profile`;
     - Make sure your Vim is colorful as well `curl -fsSL https://raw.githubusercontent.com/yunpengn/MacBook/master/.vimrc -o ~/.vimrc`;
+11. Configure your local SSH client:
     - Create a new SSH key `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`.
-        - See your public key by `cat ~/.ssh/id_rsa.pub`;
-        - Add commonly used server configurations in `~/.ssh/config`.
-11. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew cask install google-chrome`:
+    - See your public key by `cat ~/.ssh/id_rsa.pub`;
+    - Add commonly used server configurations in `~/.ssh/config`. Notice that this file should start with the following:
+```bash
+Host *
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_rsa
+```
+12. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew cask install google-chrome`:
     - Drag Chrome to the Dock for convenience;
     - Install the following plugin for Chrome:
         - AdBlock, Octotree, ...
@@ -106,16 +113,16 @@ brew tap caskroom/cask
         - Use web service to detect spelling errors;
         - Send `No Tracking` requests;
         - Enable `Developer Mode` for extensions.
-12. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew cask install sublime-text`:
+13. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew cask install sublime-text`:
     - Drag Sublime to the Dock for convenience;
     - Go to `Tools` -> `Install Package Control`.
-13. Install [Cyberduck](https://cyberduck.io) using Homebrew `brew cask install cyberduck`:
+14. Install [Cyberduck](https://cyberduck.io) using Homebrew `brew cask install cyberduck`:
     - Add the commonly used SSH servers;
     - You can install [Filezilla](https://filezilla-project.org) instead.
-14. Create a `Projects` folder by `mkdir ~/Projects`.
+15. Create a `Projects` folder by `mkdir ~/Projects`.
     - Later, you can clone your repositories to here.
-15. Configure your local git name & email `git config --global user.name/email "<value>"`.
-16. Install the following applications from App Store:
+16. Configure your local git name & email `git config --global user.name/email "<value>"`.
+17. Install the following applications from App Store:
     - Onedrive, QQ, WeChat, ...
 
 ### Java Development Environment
