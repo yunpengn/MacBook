@@ -177,7 +177,7 @@ Host <server-name>
     - Create a new user by `CREATE USER '<username_here>'@'localhost' IDENTIFIED BY '<password_here>';`;
     - Grant all privileges by `GRANT ALL PRIVILEGES ON *.* TO '<username_here>'@'localhost';`;
     - You can try to login now with `mysql -p`.
-5. Install a MySQL client with GUI, by downloading from [Sequel Pro](https://www.sequelpro.com).
+5. Install a MySQL client with GUI, [Sequel Pro](https://www.sequelpro.com) by `brew cask install sequel-pro`.
 
 ## Licence
 
