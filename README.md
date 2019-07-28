@@ -162,6 +162,23 @@ Host <server-name>
 1. Install the latest version of Go by `brew install go`.
 2. Install [GoLand](https://www.jetbrains.com/go/) by [JetBrains](https://www.jetbrains.com) by `brew cask install goland`.
 
+### MySQL Development Environment
+
+1. We don't use other SQL servers. MySQL is the only choice for now.
+2. Install the latest version of MySQL server by `brew install mysql`.
+3. Start the MySQL instance at the background via `brew services start mysql`.
+3. Secure the MySQL instance with `mysql_secure_installation`:
+    - We recommend to use the same password as MacOS login password;
+    - For local development, it is fine to not use the `VALIDATE PASSWORD` component;
+    - After that, you can login as `root` with `mysql -u root -p` (for password prompt).
+4. Create a new MySQL user with the **same** username as MacOS account:
+    - We give all privileges to this account. However, we only allow login from localhost;
+    - Login as `root` with `mysql -u root -p`;
+    - Create a new user by `CREATE USER '<username_here>'@'localhost' IDENTIFIED BY '<password_here>';`;
+    - Grant all privileges by `GRANT ALL PRIVILEGES ON *.* TO '<username_here>'@'localhost';`;
+    - You can try to login now with `mysql -p`.
+5. Install a MySQL client with GUI, by downloading from (Sequel Pro)[https://www.sequelpro.com].
+
 ## Licence
 
 [GNU General Public Licence 3.0](LICENSE)
