@@ -190,7 +190,7 @@ Host <server-name>
 3. Create a build system for Latex by `Tools -> Build System -> New Build System...`:
 ```json
 {
-	"shell_cmd": "pdflatex \"${file}\""
+    "shell_cmd": "pdflatex \"${file}\""
 }
 ```
 4. Optionally, you may want to install [Skim](https://skim-app.sourceforge.io/) for reverse search capability.
