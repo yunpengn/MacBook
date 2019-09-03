@@ -182,7 +182,9 @@ Host <server-name>
 ### Latex Writing Environment
 
 1. Download [MikTex](https://miktex.org/) from [here](https://miktex.org/download).
-    - Different from most online guides, we do NOT use [MacTex](http://www.tug.org/mactex/).
+    - Different from most online guides, we do NOT use [MacTex](http://www.tug.org/mactex/);
+    - Make a private installation so that MikTex is only accessible to the current user;
+    - Add the folder `~/bin/` to the current user's path variable.
 2. Make sure the latest version of [Sublime Text 3](https://www.sublimetext.com) has been installed on your laptop.
     - There is no need to install any extra package(s) because [LatexTools](https://github.com/SublimeText/LaTeXTools) is shipped together with Sublime in the recent versions.
 3. Optionally, you may want to install [Skim](https://skim-app.sourceforge.io/) for reverse search capability.
