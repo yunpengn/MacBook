@@ -179,6 +179,14 @@ Host <server-name>
     - You can try to login now with `mysql -p`.
 5. Install a MySQL client with GUI, [Sequel Pro](https://www.sequelpro.com) by `brew cask install sequel-pro`.
 
+### Latex Writing Environment
+
+1. Download [MikTex](https://miktex.org/) from [here](https://miktex.org/download).
+    - Different from most online guides, we do NOT use [MacTex](http://www.tug.org/mactex/).
+2. Make sure the latest version of [Sublime Text 3](https://www.sublimetext.com) has been installed on your laptop.
+    - There is no need to install any extra package(s) because [LatexTools](https://github.com/SublimeText/LaTeXTools) is shipped together with Sublime in the recent versions.
+3. Optionally, you may want to install [Skim](https://skim-app.sourceforge.io/) for reverse search capability.
+
 ## Licence
 
 [GNU General Public Licence 3.0](LICENSE)
