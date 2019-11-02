@@ -126,7 +126,10 @@ Host <server-name>
     - You can install [Filezilla](https://filezilla-project.org) instead.
 15. Create a `Projects` folder by `mkdir ~/Projects`.
     - Later, you can clone your repositories to here.
-16. Configure your local git name & email `git config --global user.name/email "<value>"`.
+16. Configure your local git by:
+    - Setup the name by `git config --global user.name "<value>"`.
+    - Setup the email by `git config --global user.email "<value>"`.
+    - Always push tags along to remote repositories by `git config --global push.followTags true`.
 17. Install the following applications from App Store:
     - Onedrive, QQ, WeChat, ...
 
