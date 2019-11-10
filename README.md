@@ -167,9 +167,8 @@ Host <server-name>
 
 ### MySQL Development Environment
 
-1. We don't use other SQL servers. MySQL is the only choice for now.
-2. Install the latest version of MySQL server by `brew install mysql`.
-3. Start the MySQL instance at the background via `brew services start mysql`.
+1. Install the latest version of MySQL server by `brew install mysql`.
+2. Start the MySQL instance at the background via `brew services start mysql`.
 3. Secure the MySQL instance with `mysql_secure_installation`:
     - We recommend to use the same password as MacOS login password;
     - For local development, it is fine to not use the `VALIDATE PASSWORD` component;
@@ -181,6 +180,17 @@ Host <server-name>
     - Grant all privileges by `GRANT ALL PRIVILEGES ON *.* TO '<username_here>'@'localhost';`;
     - You can try to login now with `mysql -p`.
 5. Install a MySQL client with GUI, [Sequel Pro](https://www.sequelpro.com) by `brew cask install sequel-pro`.
+
+### PostgreSQL Development Environment
+
+1. Install the latest version of PostgreSQL server by `brew install postgresql`.
+2. Start the MySQL instance at the background via `brew services start postgresql`.
+3. This installation should help you create a superuser with the **same** username as MacOS account, but with no password. To change the password:
+    - First, connect to the database by `psql template1`, where `template1` is the template database shipped with PostgreSQL;
+    - Change password by `ALTER USER <username_here> PASSWORD 'new_password_here';`;
+    - Now, remove the default database created by `DROP DATABASE postgres;`;
+    - Then, create a new database with the **same** name as MacOS account by `CREATE DATABASE <username_here>;`.
+4. Install a PostgreSQL client with GUI, [PSequel](http://www.psequel.com) by `brew cask install psequel`.
 
 ### Latex Writing Environment
 
