@@ -190,7 +190,7 @@ Host <server-name>
     - Change password by `ALTER USER <username_here> PASSWORD 'new_password_here';`;
     - Now, remove the default database created by `DROP DATABASE postgres;`;
     - Then, create a new database with the **same** name as MacOS account by `CREATE DATABASE <username_here>;`.
-4. Install a PostgreSQL client with GUI, [PSequel](http://www.psequel.com) by `brew cask install psequel`.
+4. Install a PostgreSQL client with GUI, [Postico](https://eggerapps.at/postico/) by `brew cask install postico`.
 
 ### Latex Writing Environment
 
