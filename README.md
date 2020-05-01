@@ -164,6 +164,7 @@ Host <server-name>
 
 1. Install the latest version of Go by `brew install go`.
 2. Install [GoLand](https://www.jetbrains.com/go/) by [JetBrains](https://www.jetbrains.com) by `brew cask install goland`.
+    - Go to `Preferences` -> `Plugins` -> `Installed`, disable `IDE Features Trainer`.
 3. Setup the necessary environment variables in `~/.bash_profile`:
 ```bash
 # Adds path variables for Go development.
