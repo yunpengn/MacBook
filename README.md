@@ -169,8 +169,8 @@ Host <server-name>
 3. Setup the necessary environment variables in `~/.bash_profile`:
 ```bash
 # Adds path variables for Go development.
-export GOPATH="~/gopath"
-export PATH="~/gopath/bin:$PATH"
+export GOPATH="/Users/<account name>/gopath"
+export PATH="/Users/<account name>/gopath/bin:$PATH"
 ```
 
 ### MySQL Development Environment
