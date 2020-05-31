@@ -158,7 +158,8 @@ Host <server-name>
     - At the time of writing, MacOs still by default comes with Python 2.7, which we would not prefer to use.
 2. Install [PyCharm](https://www.jetbrains.com/pycharm/) by [JetBrains](https://www.jetbrains.com) by `brew cask install pycharm`.
 3. Install [Pipenv](https://github.com/pypa/pipenv) by `brew install pipenv`.
-    - We believe Pipenv is better than the others, such as [virtualenv](https://github.com/pypa/virtualenv), [pip](https://pypi.org/project/pip/), etc.
+    - We believe Pipenv is better than the other tools, such as [virtualenv](https://github.com/pypa/virtualenv), [pip](https://pypi.org/project/pip/), etc.
+    - However, for legacy projects, raw usage of [virtualenv](https://github.com/pypa/virtualenv) and [pip](https://pypi.org/project/pip/) would still be acceptable.
 
 ### Go Development Environment
 
