@@ -158,9 +158,13 @@ Host <server-name>
     - [Python 2.7](https://www.python.org/doc/sunset-python-2/) has come to its end-of-life as of January 1, 2020. Never use Python 2 anymore unless necessary.
     - Do NOT add alias to point `python` to `python3`, as this can be confusing. Instead, just use `python3` and `pip3`.
 2. Install [PyCharm](https://www.jetbrains.com/pycharm/) by [JetBrains](https://www.jetbrains.com) by `brew cask install pycharm`.
-3. Install  by `brew install pipenv`.
-    - We believe Pipenv is better than the other tools, such as [virtualenv](https://github.com/pypa/virtualenv), [pip](https://pypi.org/project/pip/), etc.
-    - However, for legacy projects, raw usage of [virtualenv](https://github.com/pypa/virtualenv) and [pip](https://pypi.org/project/pip/) would still be acceptable.
+3. To use [Pipenv](https://pypi.org/project/pipenv/) for dependency management:
+    - Install Pipenv by `brew install pipenv`.
+4. To use [venv](https://docs.python.org/3/library/venv.html) and [pip](https://pypi.org/project/pip/) for dependency management:
+    - Create a new virtual environment for your project by `python3 -m venv .env/`;
+    - Activate the virtual envrionment created by `source .env/bin/activate`;
+    - Install dependency inside the virtual environment by `pip3 install -r requirements.txt`.
+5. Never use [easy_install](https://setuptools.readthedocs.io/en/latest/easy_install.html) as it has been [deprecated](https://packaging.python.org/discussions/pip-vs-easy-install/).
 
 ### Go Development Environment
 
