@@ -154,10 +154,11 @@ Host <server-name>
 
 ### Python Development Environment
 
-1. Install the latest version of Python 3 by `brew install python3`.
-    - At the time of writing, MacOs still by default comes with Python 2.7, which we would not prefer to use.
+1. Use the Python 3 built into MacOS, and do NOT install using [HomeBrew](https://brew.sh) or the installer from [python.org](https://www.python.org).
+    - [Python 2.7](https://www.python.org/doc/sunset-python-2/) has come to its end-of-life as of January 1, 2020. Never use Python 2 anymore unless necessary.
+    - Do NOT add alias to point `python` to `python3`, as this can be confusing. Instead, just use `python3` and `pip3`.
 2. Install [PyCharm](https://www.jetbrains.com/pycharm/) by [JetBrains](https://www.jetbrains.com) by `brew cask install pycharm`.
-3. Install [Pipenv](https://github.com/pypa/pipenv) by `brew install pipenv`.
+3. Install  by `brew install pipenv`.
     - We believe Pipenv is better than the other tools, such as [virtualenv](https://github.com/pypa/virtualenv), [pip](https://pypi.org/project/pip/), etc.
     - However, for legacy projects, raw usage of [virtualenv](https://github.com/pypa/virtualenv) and [pip](https://pypi.org/project/pip/) would still be acceptable.
 
