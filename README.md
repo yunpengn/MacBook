@@ -76,7 +76,7 @@ Please notice this guide is opinionated. The following philosophical rules are e
     - Go to `Advanced` and tick show all extensions, remove items in trask after 30 days and show folders on the top.
 9. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask:
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap caskroom/cask
 ```
 10. Install [iTerm 2](https://www.iterm2.com) using Homebrew `brew cask install iterm2`:
