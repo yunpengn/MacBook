@@ -77,7 +77,7 @@ Please notice this guide is opinionated. The following philosophical rules are e
 9. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-brew tap homebrew/cask-cask
+brew tap homebrew/cask
 ```
 10. Install [iTerm 2](https://www.iterm2.com) using Homebrew `brew cask install iterm2`:
     - Drag iTerm 2 to the Dock for convenience;
