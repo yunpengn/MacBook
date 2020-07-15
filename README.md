@@ -83,7 +83,7 @@ brew tap homebrew/cask
     - Drag iTerm 2 to the Dock for convenience;
     - Close the terminal and open iTerm 2 instead;
     - Open `iTerm 2` -> `Preferences`:
-        - Go to `General`, tick `Quit when all windows are closed`;
+        - Go to `General` -> `Closing`, tick `Quit when all windows are closed`;
         - Go to `Profiles` -> `Default` and:
             - Go to `Colors` -> `Color Presets`, select `Solarized Dark`;
             - Go to `Text`, select `Blinking cursor` and change font size to 13;
