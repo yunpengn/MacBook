@@ -77,14 +77,13 @@ Please notice this guide is opinionated. The following philosophical rules are e
 9. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-brew tap homebrew/cask
 ```
 10. Switch the default terminal to bash and disable ZSH warning message:
 ```bash
 chsh -s /bin/bash
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
-11. Install [iTerm 2](https://www.iterm2.com) using Homebrew `brew cask install iterm2`:
+11. Install [iTerm 2](https://www.iterm2.com) using Homebrew `brew install iterm2`:
     - Drag iTerm 2 to the Dock for convenience;
     - Close the terminal and open iTerm 2 instead;
     - Open `iTerm 2` -> `Preferences`:
@@ -114,7 +113,7 @@ Host <server-name>
     IdentityFile ~/.ssh/id_rsa
     User yunpengn
 ```
-13. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew cask install google-chrome`:
+13. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew install google-chrome`:
     - Drag Chrome to the Dock for convenience;
     - Install the following plugin for Chrome:
         - AdBlock, Octotree, ...
@@ -123,10 +122,10 @@ Host <server-name>
         - Use web service to detect spelling errors;
         - Send `No Tracking` requests;
         - Enable `Developer Mode` for extensions.
-14. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew cask install sublime-text`:
+14. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew install sublime-text`:
     - Drag Sublime to the Dock for convenience;
     - Go to `Tools` -> `Install Package Control`.
-15. Install [Cyberduck](https://cyberduck.io) using Homebrew `brew cask install cyberduck`:
+15. Install [Cyberduck](https://cyberduck.io) using Homebrew `brew install cyberduck`:
     - Add the commonly used SSH servers;
     - You can install [Filezilla](https://filezilla-project.org) instead.
 16. Create a `Projects` folder by `mkdir ~/Projects`.
@@ -140,7 +139,7 @@ Host <server-name>
 
 ### Java Development Environment
 
-1. Install the latest version of Oracle JDK by `brew cask install oracle-jdk`.
+1. Install the latest version of Oracle JDK by `brew install oracle-jdk`.
     - We don't use an older version of Java because we prefer latest features. However, it is permitted to use the LTS version if the latest one is not;
     - We don't use OpenJDK because previous experiences show that it could cause issues such as missing certificate.
 2. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate by [JetBrains](https://www.jetbrains.com) by `brew cask install intellij-idea`.
@@ -162,7 +161,7 @@ Host <server-name>
 1. Use the Python 3 built into MacOS, and do NOT install using [HomeBrew](https://brew.sh) or the installer from [python.org](https://www.python.org).
     - [Python 2.7](https://www.python.org/doc/sunset-python-2/) has come to its end-of-life as of January 1, 2020. Never use Python 2 anymore unless necessary.
     - Do NOT add alias to point `python` to `python3`, as this can be confusing. Instead, just use `python3` and `pip3`.
-2. Install [PyCharm](https://www.jetbrains.com/pycharm/) by [JetBrains](https://www.jetbrains.com) by `brew cask install pycharm`.
+2. Install [PyCharm](https://www.jetbrains.com/pycharm/) by [JetBrains](https://www.jetbrains.com) by `brew install pycharm`.
 3. To use [Pipenv](https://pypi.org/project/pipenv/) for dependency management:
     - Install Pipenv by `brew install pipenv`.
 4. To use [venv](https://docs.python.org/3/library/venv.html) and [pip](https://pypi.org/project/pip/) for dependency management:
@@ -174,7 +173,7 @@ Host <server-name>
 ### Go Development Environment
 
 1. Install the latest version of Go by `brew install go`.
-2. Install [GoLand](https://www.jetbrains.com/go/) by [JetBrains](https://www.jetbrains.com) by `brew cask install goland`.
+2. Install [GoLand](https://www.jetbrains.com/go/) by [JetBrains](https://www.jetbrains.com) by `brew install goland`.
     - Go to `Preferences` -> `Plugins` -> `Installed`, disable `IDE Features Trainer`.
     - Go to `Preferences` -> `Tools` -> `File Watchers`, add `go fmt`.
 3. Setup the necessary environment variables in `~/.bash_profile`:
