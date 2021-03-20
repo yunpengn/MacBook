@@ -74,16 +74,17 @@ Please notice this guide is opinionated. The following philosophical rules are e
     - Go to `General` and select `<account name>` when opening a new Finder window;
     - Go to `Sidebar` and tick `<account name>`;
     - Go to `Advanced` and tick show all extensions, remove items in trask after 30 days and show folders on the top.
-9. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask:
+9. Open `Others` -> `Terminal` and run `xcode-select install`.
+10. Open `Others` -> `Terminal` and install [Homebrew](https://brew.sh) (the package manager) and Homebrew Cask:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-10. Switch the default terminal to bash and disable ZSH warning message:
+11. Switch the default terminal to bash and disable ZSH warning message:
 ```bash
 chsh -s /bin/bash
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
-11. Install [iTerm 2](https://www.iterm2.com) using Homebrew `brew install iterm2`:
+12. Install [iTerm 2](https://www.iterm2.com) using Homebrew `brew install iterm2`:
     - Drag iTerm 2 to the Dock for convenience;
     - Close the terminal and open iTerm 2 instead;
     - Open `iTerm 2` -> `Preferences`:
@@ -98,7 +99,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
     - Set the tab complete to be case-insensitive `echo 'set completion-ignore-case on' >> ~/.inputrc`;
     - Make sure your bash shell is colorful `echo 'export CLICOLOR=1' >> ~/.bash_profile`;
     - Make sure your Vim is colorful as well `curl -fsSL https://raw.githubusercontent.com/yunpengn/MacBook/master/.vimrc -o ~/.vimrc`;
-12. Configure your local SSH client:
+13. Configure your local SSH client:
     - Create a new SSH key `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`.
     - See your public key by `cat ~/.ssh/id_rsa.pub`;
     - Create a file at `~/.ssh/config` and add commonly used server configurations inside, in the following format:
@@ -113,7 +114,7 @@ Host <server-name>
     IdentityFile ~/.ssh/id_rsa
     User yunpengn
 ```
-13. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew install google-chrome`:
+14. Install [Google Chrome](https://www.google.com/chrome/) using Homebrew `brew install google-chrome`:
     - Drag Chrome to the Dock for convenience;
     - Install the following plugin for Chrome:
         - AdBlock, Octotree, ...
@@ -122,19 +123,19 @@ Host <server-name>
         - Use web service to detect spelling errors;
         - Send `No Tracking` requests;
         - Enable `Developer Mode` for extensions.
-14. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew install sublime-text`:
+15. Install [Sublime Text](https://www.sublimetext.com) using Homebrew `brew install sublime-text`:
     - Drag Sublime to the Dock for convenience;
     - Go to `Tools` -> `Install Package Control`.
-15. Install [Cyberduck](https://cyberduck.io) using Homebrew `brew install cyberduck`:
+16. Install [Cyberduck](https://cyberduck.io) using Homebrew `brew install cyberduck`:
     - Add the commonly used SSH servers;
     - You can install [Filezilla](https://filezilla-project.org) instead.
-16. Create a `Projects` folder by `mkdir ~/Projects`.
+17. Create a `Projects` folder by `mkdir ~/Projects`.
     - Later, you can clone your repositories to here.
-17. Configure your local git by:
+18. Configure your local git by:
     - Setup the name by `git config --global user.name "<value>"`.
     - Setup the email by `git config --global user.email "<value>"`.
     - Always push tags along to remote repositories by `git config --global push.followTags true`.
-18. Install the following applications based on your needs:
+19. Install the following applications based on your needs:
     - Onedrive, QQ, WeChat, ...
 
 ### Java Development Environment
@@ -142,7 +143,7 @@ Host <server-name>
 1. Install the latest version of Oracle JDK by `brew install oracle-jdk`.
     - We don't use an older version of Java because we prefer latest features. However, it is permitted to use the LTS version if the latest one is not;
     - We don't use OpenJDK because previous experiences show that it could cause issues such as missing certificate.
-2. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate by [JetBrains](https://www.jetbrains.com) by `brew cask install intellij-idea`.
+2. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) Ultimate by [JetBrains](https://www.jetbrains.com) by `brew install intellij-idea`.
 
 ### Node.js & ECMAScript Development Environment
 
