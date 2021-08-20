@@ -228,6 +228,13 @@ export PATH="/Users/<account name>/gopath/bin:$PATH"
 ```
 4. Optionally, you may want to install [Skim](https://skim-app.sourceforge.io/) for reverse search capability.
 
+## Virtual Machine Usage
+
+1. [VirtualBox](http://virtualbox.org) is our only recommended solution for VM management on MacOS.
+    - Install from Homebrew by `brew install --cask virtualbox`.
+2. Most times, you would need its extensions pack as well.
+    - Install from Homebrew by `brew install --cask virtualbox-extension-pack`.
+
 ## Licence
 
 [GNU General Public Licence 3.0](LICENSE)
